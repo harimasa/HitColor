@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.hitcolor.title": "Hit Color",
+  "text.autoconfig.hitcolor.option.color": "Цвет (Hex-Code)",
+  "text.autoconfig.hitcolor.option.alpha": "Прозрачность",
+  "text.command.hitcolor.reloaded": "§fМод §l§aHit Color §fбыл §l§fПерезагружен!"
+}
