@@ -1,0 +1,6 @@
+{
+  "text.autoconfig.hitcolor.title": "Hit Color",
+  "text.autoconfig.hitcolor.option.color": "Color (Hex-Code)",
+  "text.autoconfig.hitcolor.option.alpha": "Alpha",
+  "text.command.hitcolor.reloaded": "§fMod §l§aHit Color §fhas been §l§fReloaded!"
+}
