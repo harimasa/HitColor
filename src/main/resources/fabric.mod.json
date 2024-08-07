@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hitcolor",
+	"version": "${version}",
+	"name": "HitColor",
+	"description": "This mod allows the player to change the player's color when dealing damage to him to absolutely any color (Hex-Code) and transparency!",
+	"authors": [
+		"femboyPig"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/hitcolor",
+		"sources": "https://github.com/femboyPig/HitColor",
+		"issues": "https://github.com/femboyPig/HitColor/issues"
+	},
+	"license": "MIT License",
+	"icon": "assets/hitcolor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.femboypig.HitColor"
+		],
+		"modmenu": [
+			"ru.femboypig.config.Modmenu"
+		]
+	},
+	"mixins": [
+		"hitcolor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"modmenu": "*",
+		"yet_another_config_lib_v3": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
