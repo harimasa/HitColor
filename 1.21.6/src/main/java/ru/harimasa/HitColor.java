@@ -10,8 +10,6 @@ public class HitColor implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		HCScreen.CONFIG.load();
-		ClientTickEvents.END_WORLD_TICK.register((client) -> {
-			OverlayReloadListener.callEvent();
-		});
+		ClientTickEvents.END_WORLD_TICK.register((client) -> OverlayReloadListener.callEvent());
 	}
 }

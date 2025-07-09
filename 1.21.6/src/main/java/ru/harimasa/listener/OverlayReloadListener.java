@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface OverlayReloadListener {
     List<OverlayReloadListener> listeners = new ArrayList<>();
-    void onOverlayReload();
+    void _1_21_6$onOverlayReload();
 
     static void register(OverlayReloadListener listener) {
         listeners.add(listener);
@@ -13,7 +13,7 @@ public interface OverlayReloadListener {
 
     static void callEvent() {
         for (OverlayReloadListener listener : listeners) {
-            listener.onOverlayReload();
+            listener._1_21_6$onOverlayReload();
         }
     }
 }
