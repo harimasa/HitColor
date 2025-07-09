@@ -9,8 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/hitcolor",
-		"sources": "https://github.com/harimasa/HitColor",
-		"issues": "https://github.com/harimasa/HitColor/issues"
+		"sources": "https://github.com/femboyPig/HitColor",
+		"issues": "https://github.com/femboyPig/HitColor/issues"
 	},
 	"license": "MIT License",
 	"icon": "assets/hitcolor/icon.png",
